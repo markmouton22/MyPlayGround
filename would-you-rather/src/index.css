@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #252525;
+  background-color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+  color: #252525;
+}
+
+.login-page{
+  margin-top: 20vh;
+}
+
+.login-page h1{
+  color: blue;
+}
+
+.login-page h3{
+  color: green;
+}
+
+.container-login{
+  display: flex;
+  justify-content: center;
+}
+
+ .login-select{
+  border-radius: 8px !important;
+  width: 225px !important;
+  height: 35px !important;
+  cursor: pointer !important;
+}
+
+.login-select option{
+   cursor: pointer !important;
+}
+
+.btn {
+  text-transform: uppercase;
+  margin: 35px auto;
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,.29);
+  cursor: pointer;
+  background: #fff;
+  font-size: 16px;
+  width: 250px;
+  position: relative;
+  cursor: pointer !important;
+  background-color: grey !important;
+  margin:5px 5px 5px 5px;
+}
+.btn-blue{
+  background-color: greenyellow !important;
+}
+
+.toggle-btn{
+  margin: 5px 5px 5px 5px;
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  cursor: pointer !important;
+}
+
+.logout-btn{
+  border-radius: 8px;
+  cursor: pointer !important;
+  background-color: red;
+  height: 30px;
+}
+
+.btn:hover {
+  border-color: rgba(0,0,0,.5);
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: 0;
+  font-weight: 700;
+  border-width: 2px;
+}
+
+.center {
+  text-align: center;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.nav li:first-child {
+  padding-left: 0;
+}
+
+.nav {
+  padding: 15px 15px 15px 15px;
+  background-color: lightgray;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.avatar {
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+ .option1{
+  border-radius: 8px;
+  cursor: pointer !important;
+  background-color: greenyellow !important;
+  padding: 5px 5px 5px 5px;
+}
+
+ .option2{
+  border-radius: 8px;
+  cursor: pointer !important;
+  background-color: blueviolet !important;
+  padding: 5px 5px 5px 5px;
+}
+
+.option1-btn{
+  cursor: pointer !important;
+  background-color: greenyellow !important;
+  margin: 5px 5px 5px 5px;
+}
+
+ .option2-btn{
+  cursor: pointer !important;
+  background-color: blueviolet !important;
+  margin: 5px 5px 5px 5px;
+}
+
+.vote-btn{
+  cursor: pointer !important;
+  background-color: lightgreen !important;
+  margin-top: 15px;
+  width: 510px;
+}
+
+.new-poll-btn{
+  cursor: pointer !important;
+  background-color: lightgreen !important;
+  margin-top: 15px;
+  height: 36px;
+  width: 510px;
+}
+
+.form-label{
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+#Leaderboard ,#QuestionPage ,#NewQuestionPage {
+  padding: 10px 10px 10px 10px;
+}
+
+#DashBoard{
+  margin-top: 15px;
+}
+
+.form-control{
+  border-radius: 8px !important;
+    height: 36px !important;
+    width: 50% !important;
+}
+
+.posion1{
+ background-color: goldenrod  !important;
+}
+
+.posion2{
+  background-color: silver  !important;
+}
+
+.posion3{
+  background-color: #cd7f32 !important;
+}
+
+.text-red{
+  color:red;
+}
+
+/*Card styling*/
+
+.card{
+  border-radius: 8px;
+    border: 2px solid grey;
+    padding: 10px 10px 10px 10px;
+    margin:10px 10px 10px 10px;
+    background-color: #4B92EF;
+}
